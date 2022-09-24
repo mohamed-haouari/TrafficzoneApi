@@ -35,7 +35,7 @@ export class LocationController {
   }
 
       @Put(':id')
-      async updateAccidentDtoById(
+      async updateLocationDtoById(
         @Param('id', ParseIntPipe) id: number,
         @Body() updateLocationDto: UpdateLocationDto,
       ) {
